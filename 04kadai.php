@@ -1,15 +1,15 @@
-<?php
+v<?php
 //課題1
 function sum($a) {
   return $a * 2;
 }
-echo sum();
+echo sum(2);
 
 //課題2
 function sum2($a, $b) {
   return $a + $b;
 }
-echo sum2();
+echo sum2(2, 3);
 
 //課題3
 function sum3($arr){
@@ -31,21 +31,6 @@ function max_array($arr){
     }
 return $max_number;
 }
-echo max_array();
-
-?>
-
-
-
-
-
-
-
-
-
-
-
-
-
+echo max_array(4, 6, 8, 10);
 
 ?>
